@@ -1,0 +1,28 @@
+1. O que são sistemas embarcados?
+
+Sistemas embarcados são definidos por um sistema microprocessado completamente dedicado ao dispositivo ou sistema que ele controla. Diferentemente de microcontroladores, os sistemas embarcados são utilizados, também, em projetos que necessitem de processamento simultâneo de dados, processamento de algum sinal ou alta utilização de memôria.
+
+2. O que são sistemas microprocesssados?
+
+São sistemas definidos pela característica de seguir instruções atribuidas e, por fim, resolver problemas solucionados. 
+Tais instruções podem ser traduzidas como conjunto de operações definidas como atributos ao processor. A estas instruções nomeiam-se "códigos"
+
+3. Apresente aplicações de sistemas embarcados:
+
+	(a) Para a indústria automotiva;
+  
+  Para a indústria automotiva, tem-se, principalmente após o desenvolvimento da mecãnica automotiva, uma maior unificação dos sistemas embarcados de um carro, no sentido de tornar mais inteligente os sistemas do veículo, como por exemplo, a sincronização de serviços de GPS com a velocidade do carro. Sistemas de segurança podem ser abordados também, já que deixa-los automatizados sugere desenvolvimento na área.
+  
+	(b) Para eletrodomésticos;
+  
+  Para eletrodomésticos, tem-se uma automação bastante inserida nos meios em questão, como por exemplo, cafeteiras inteligentes, com seviços de despertador e programação prévia, ao comando do usuário, para produção de café. Ou sistemas integrados de automaçaõ residencial, como cortinas, caixas de som, televisões, todos controlados remotamente. 
+  
+	(c) Para automação industrial.
+  
+  Industrias nomeadas "Industrias 4.0" são as que já possuem integraçaõ em seus sistemas de produção, observando pelo lado inteligente do sistema, a capacidade de produção observando padrões. Aprendizagem de máquina associada a sistemas embarcados.
+
+4. Cite arquiteturas possíveis e as diferenças entre elas.
+
+Uma das arquiteturas mais acessíveis é a Raspberry Pi, devido a sua excelente performance quanto serviços ao mesmo tempo e um bom processador. Também tem-se a placa Beagle Bone, com conversores AD e DA adicionais, em relação a Raspberry. 
+
+5. Por que usamos o Raspberry Pi na disciplina, ao invés de outro system-on-chip?
