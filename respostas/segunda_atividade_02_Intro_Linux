@@ -88,6 +88,11 @@ Para apresentar instruções anteriores, aperta-se a seta para cima.
   cat 'nome da pasta' | grep 'palavra a ser procurada'
   
   (q) Ordenar informações em um arquivo-texto.
+  
   (r) Substituir ocorrências de palavras-chave em um arquivo-texto.
+  
   (s) Conferir se dois arquivos são iguais.
+  
   (t) Escrever algo na tela.
+  
+  Echo
