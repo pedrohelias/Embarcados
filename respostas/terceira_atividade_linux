@@ -8,6 +8,8 @@ O terminal enviará "Ola mundo cruel!"
 
 2. Apresente o nome de todos os arquivos e pastas na pasta 'root'.
 
+Inicialmente é necessário habilitar o super usuário, sendo Root. Facilmente habilitado escrevendo o comando "su"
+Ao inserir a senha, o terminal habilitará o super usuário, e isso permitirá seu acesso na pasta root
 
 
 3. Apresente o tipo de todos os arquivos e pastas na pasta 'root'.
