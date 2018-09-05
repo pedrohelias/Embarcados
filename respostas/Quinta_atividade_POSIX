@@ -1,0 +1,42 @@
+1. Considerando a biblioteca-padrão da linguagem C, responda:
+
+(a) Quais são as funções (e seus protótipos) para abrir e fechar arquivos?
+
+
+(b) Quais são as funções (e seus protótipos) para escrever em arquivos?
+
+
+(c) Quais são as funções (e seus protótipos) para ler arquivos?
+
+
+(d) Quais são as funções (e seus protótipos) para reposicionar um ponteiro para arquivo?
+
+
+(e) Quais bibliotecas devem ser incluídas no código para poder utilizar as funções acima?
+
+
+
+2. O que é a norma POSIX?
+
+3. Considerando a norma POSIX, responda:
+
+(a) Quais são as funções (e seus protótipos) para abrir e fechar arquivos?
+Open (diferentemente de "fopen" vinda de .C) e Close (diferentemente de "fclose" vinda de .C)
+Cria-se uma variável com seu tipo, por exemplo, int fp. Em seguida, nomea-se fp a função a ser executada, no caso open.
+fp = open. Dentro das funções de open, escrever endereço/permissões como escrever, ler ou escrever e ler. Como por exemplo:
+fp = open (endereço, O_WRONLY); , fp = open (endereço, O_RDONLY); ou fp = open (endereço,O_RDWR); 
+Para fechar um programa, apenas close(programa)
+
+(b) Quais são as funções (e seus protótipos) para escrever em arquivos?
+Função O_WRONLY. Pré-escrita por O
+
+(c) Quais são as funções (e seus protótipos) para ler arquivos?
+Função O_RDONLY. Pré-escrita por 0
+
+(d) Quais são as funções (e seus protótipos) para reposicionar um ponteiro para arquivo?
+
+(e) Quais bibliotecas devem ser incluídas no código para poder utilizar as funções acima?
+#include <stdio.h> (para "int") 
+#include <fcntl.h> (
+#include <unistd.h>
+#include <stdlib.h> ( para "printf")
