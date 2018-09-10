@@ -9,6 +9,8 @@ $ ./ola_usuario_1
 $ Digite o seu nome: Eu
 $ Ola Eu
 ```
+textcolor(8)
+
 RESPOSTA: 
 
 int main(){
