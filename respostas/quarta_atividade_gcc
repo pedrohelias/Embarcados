@@ -9,6 +9,20 @@ $ ./ola_usuario_1
 $ Digite o seu nome: Eu
 $ Ola Eu
 ```
+RESPOSTA: 
+
+int main(){
+
+char nome[20];
+
+printf("digite seu nome\n");
+scanf( "%s", nome);
+
+printf ("ola %s \n", nome);
+
+return 0;
+}
+
 
 3. Apresente os comportamentos do código anterior nos seguintes casos:
 
@@ -17,27 +31,45 @@ $ Ola Eu
 $ ./ola_usuario_1
 $ Digite o seu nome: Eu Mesmo
 ```
+RESPOSTA:
+
+O Software criado imprime apenas até o espaço. Após o espaço, a funçõa scanf não está habilitada, a princípio, para ler o caracter inserido 
 
 (b) Se o usuário insere mais de um nome entre aspas duplas. Por exemplo:
 ```bash
 $ ./ola_usuario_1
 $ Digite o seu nome: "Eu Mesmo"
 ```
+RESPOSTA:
+
+Novamente a função Scanf verifica apenas o primeiro nome digitado
 
 (c) Se é usado um pipe. Por exemplo:
 ```bash
 $ echo Eu | ./ola_usuario_1
 ```
+RESPOSTA:
+
+Novamente a função Scanf verifica apenas o primeiro nome
 
 (d) Se é usado um pipe com mais de um nome. Por exemplo:
 ```bash
 $ echo Eu Mesmo | ./ola_usuario_1
 ```
 
+RESPOSTA:
+
+Novamente a função Scanf verifica apenas o primeiro nome
+
+
 (e) Se é usado um pipe com mais de um nome entre aspas duplas. Por exemplo:
 ```bash
 $ echo "Eu Mesmo" | ./ola_usuario_1
 ```
+RESPOSTA:
+
+Novamente a função Scanf verifica apenas o primeiro nome
+
 
 (f) Se é usado o redirecionamento de arquivo. Por exemplo:
 ```bash
