@@ -189,6 +189,7 @@ return 0;
 $ ./ola_argumentos Eu Mesmo e Minha Pessoa
 $ Argumentos: Eu Mesmo e Minha Pessoa
 ```
+RESPOSTA:
 
 #include <stdio.h>
 #include <stdlib.h>
