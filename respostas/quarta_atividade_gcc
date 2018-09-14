@@ -190,6 +190,34 @@ $ ./ola_argumentos Eu Mesmo e Minha Pessoa
 $ Argumentos: Eu Mesmo e Minha Pessoa
 ```
 
+#include <stdio.h>
+#include <stdlib.h>
+
+int main( int argc, char* argv[]){
+
+
+if (argc >1) {
+	
+	system("clear");
+
+	int i; //declarando a variavel i
+	printf("Argumentos: ");
+	for(i = 1; i<argc; i++) // fazendo com que i comece em 1, garantindo que argc
+				// pare e determinando contagem do i
+		
+		printf("%s ", argv[i]);
+		printf("\n");
+		
+		
+
+}
+
+
+
+return 0;
+
+
+}
 
 
 8. Crie uma função que retorna a quantidade de caracteres em uma string, usando o seguinte protótipo:
