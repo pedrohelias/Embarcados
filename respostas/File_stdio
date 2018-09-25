@@ -13,6 +13,37 @@ $ cat Eu.txt
 $ Nome: Eu
 $ Idade: 30 anos
 
+RESPOSTA:
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+	FILE *ponteiro;
+	int idade;
+	char nome[20];
+
+	system("clear");
+
+	ponteiro = fopen("nome_e_idade.txt","a");
+		printf("digite seu nome\n");
+			scanf("%s", nome);
+		printf("digite sua idade\n");
+			scanf("%d", &idade);
+	fprintf(ponteiro, "Nome: %s\n",nome );
+	fprintf(ponteiro, "Idade: %d",idade );
+
+
+	fclose(ponteiro);
+
+printf("ponteiro criado com sucesso\n" );
+
+
+
+return 0;
+}
+
    3 Crie um código em C que recebe o nome do usuário e e sua idade como argumentos de entrada (usando as variáveis argc e *argv[]), e escreve este conteúdo em um arquivo com o seu nome e extensão '.txt'. Por exemplo, considerando que o código criado recebeu o nome de 'ola_usuario_2':
 
 $ ./ola_usuario_2 Eu 30
