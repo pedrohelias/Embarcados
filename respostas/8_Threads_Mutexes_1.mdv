@@ -3,6 +3,7 @@
     Quais são as vantagens e desvantagens em utilizar:
 
 (a) fork?
+Vantagens: A função roda diversos processos filho, cada filho executa sua própria tarefa, e tem seu espaço de memória protegido. Sua comunicação é feita por pipes, sinais, entre outros.
 
 (b) threads?
 
