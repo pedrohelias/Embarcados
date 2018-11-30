@@ -6,6 +6,9 @@
 Vantagens: A função roda diversos processos filho, cada filho executa sua própria tarefa, e tem seu espaço de memória protegido. Sua comunicação é feita por pipes, sinais, entre outros.
 
 (b) threads?
+Vantagem Uma só aplicação pode rodar várias threads, assim sendo, cada thread compartilha o mesmo espaço de tempo com outras threads. A comunicação é mais simples por usar memória compartilhada, troca de contexto (lightweight). Desvantagens: 
+Risco de perda de dados
+
 
     Quantas threads serão criadas após as linhas de código a seguir? Quantas coexistirão? Por quê?
 
